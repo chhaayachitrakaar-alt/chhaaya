@@ -1,0 +1,9 @@
+# Ignore all raw heavy video files
+*.mp4
+
+# Allow web-compressed videos
+!*_web.mp4
+
+# OS generated files
+.DS_Store
+Thumbs.db

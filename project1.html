@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Manish Sahu</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Montserrat for bold titles, Inter for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <style>
+        .project-hero {
+            padding: 150px 5% 50px 5%;
+            text-align: center;
+        }
+        .project-title {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .project-meta {
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 0 5% 100px 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            width: 100%;
+            aspect-ratio: 4/5;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+        .gallery-item img, .gallery-item video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 10px 30px;
+            border: 1px solid var(--text-main);
+            border-radius: 30px;
+            transition: all 0.3s;
+        }
+        .back-link:hover {
+            background: var(--text-main);
+            color: var(--bg-color);
+        }
+        .drive-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px 50px;
+            font-size: 1.2rem;
+            background: var(--text-main);
+            color: var(--bg-color);
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
+        }
+        .drive-link:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 40px rgba(255, 255, 255, 0.25);
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="sticky-nav visible" style="transform: translateY(0);">
+        <div class="logo">YP</div>
+        <div class="nav-links">
+            <a href="index.html#projects">BACK TO MANISH SAHU</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="project-hero gs-reveal">
+            <h1 class="project-title title">SHIVANI & JASHRAJ</h1>
+            <p class="project-meta">Wedding Reel and Candid Photos</p>
+            <p style="max-width: 800px; margin: 0 auto; line-height: 1.6; color: #ccc;">
+                After 22 beautiful years of love, countless memories, and standing by each other through every chapter, Shivani and Jashraj finally made their forever official. ❤️
+            </p>
+        </section>
+
+        <!-- Google Drive Link Section -->
+        <section class="gs-reveal" style="max-width: 800px; margin: 0 auto; padding: 0 5%; margin-bottom: 100px; text-align: center;">
+            <a href="https://drive.google.com/drive/folders/1OaDnB5AZ2YsWa31dbddJbNg-xGaDG_wm?usp=sharing" target="_blank" rel="noopener noreferrer" class="drive-link">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+                Access Full Project Files on Google Drive
+            </a>
+        </section>
+        
+        <div style="text-align: center; padding-bottom: 100px;" class="gs-reveal">
+            <a href="index.html#projects" class="back-link">← Back to All Projects</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
