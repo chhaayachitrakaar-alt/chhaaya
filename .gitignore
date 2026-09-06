@@ -1,11 +1,13 @@
 # Ignore all raw heavy video files
 *.mp4
 
-# Allow only lightweight background videos
+# Allow only lightweight background and web-optimized videos
 !cinematic_home_video.mp4
 !cinematic_portfolio_video.mp4
 !more than 5.mp4
 !more than 5 2.mp4
+!haldi_web.mp4
+!varmala_web_opt.mp4
 
 # Heavy files (>10MB)
 COVER 2.jpg
