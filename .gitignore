@@ -4,12 +4,15 @@
 # Allow only lightweight background videos
 !cinematic_home_video.mp4
 !cinematic_portfolio_video.mp4
+!more than 5.mp4
+!more than 5 2.mp4
 
 # Heavy files (>10MB)
 COVER 2.jpg
 "CHHAYACHITRAKAAR .jpg"
 CHHAYACHITRAKAAR*.jpg
 
-# OS generated files
+# OS & Editor generated files
 .DS_Store
 Thumbs.db
+*.pek
