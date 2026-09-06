@@ -9,8 +9,6 @@
 
 # Heavy files (>10MB)
 COVER 2.jpg
-"CHHAYACHITRAKAAR .jpg"
-CHHAYACHITRAKAAR*.jpg
 
 # OS & Editor generated files
 .DS_Store
