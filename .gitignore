@@ -1,10 +1,14 @@
 # Ignore all raw heavy video files
 *.mp4
 
-# Allow web-compressed and background videos
-!*_web.mp4
+# Allow only lightweight background videos
 !cinematic_home_video.mp4
 !cinematic_portfolio_video.mp4
+
+# Heavy files (>10MB)
+COVER 2.jpg
+"CHHAYACHITRAKAAR .jpg"
+CHHAYACHITRAKAAR*.jpg
 
 # OS generated files
 .DS_Store
