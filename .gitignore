@@ -1,8 +1,10 @@
 # Ignore all raw heavy video files
 *.mp4
 
-# Allow web-compressed videos
+# Allow web-compressed and background videos
 !*_web.mp4
+!cinematic_home_video.mp4
+!cinematic_portfolio_video.mp4
 
 # OS generated files
 .DS_Store
